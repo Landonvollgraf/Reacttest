@@ -1,0 +1,50 @@
+.Header{
+    font-size: xx-large;
+    background-image: url(cherrybloosm.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+.body{
+ border: solid 2px red;
+ background-color: white;
+ padding: 20px;
+ width: 500px;
+}
+
+.subject{
+height:200px
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: crimson;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
